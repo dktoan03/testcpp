@@ -22,5 +22,6 @@ string findLongestSubstring(string& str){
 }
 int main(){
     string str1="dkyXy23dY50XadlydY4D";
+    string str2;
     cout<<findLongestSubstring(str1);
 }
