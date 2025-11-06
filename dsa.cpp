@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
+// Microsoft interview Oct 2025 SWE1
 // We have a string which only contains numbers(0-9) and letters(a-z). Please find the longest substring which has equal count of numbers and letters.
+// optimal sol: add 1 when it's num and minus 1 when it's letter. Use with unordered_map, i: sum, v: index
 string findLongestSubstring(string& str){
     int maxLength=0;
     int startingIndex=0;
